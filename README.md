@@ -30,3 +30,4 @@ Para ello, he entrenado un modelo dummy que predice el tipo de planta Iris en fu
 5. **Configuración del deployment contínuo del Cloud Run**. Una vez creado el servicio, se debe indicar el despliegue contínuo. De esta forma vincularemos nuestro Github (también sirven Gitlab y Bitbucket) con el Container Registry. Mediante el fichero `cloudbuild.yaml` indicamos los pasos que se deben seguir para realizar el despliegue.
 
 
+
