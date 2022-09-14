@@ -1,5 +1,5 @@
 steps:
-ll- name: 'gcr.io/cloud-builders/docker'
+- name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/ejemplos-formacion/github.com/anderfernandez/ejemplo-de-mlops:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/ejemplos-formacion/github.com/anderfernandez/ejemplo-de-mlops:$SHORT_SHA']
